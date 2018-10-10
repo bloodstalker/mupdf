@@ -37,5 +37,7 @@ Report bugs on the ghostscript bugzilla, with MuPDF as the selected component.
 If you are reporting a problem with a specific file, please include the file as
 an attachment.
 
+My changes are basically from here:
+https://acidwords.com/posts/2016-07-26-hacking-mupdf-custom-background-colors.html
 BUILD COMMAND:
 `make HAVE_GLUT=NO`
