@@ -135,7 +135,7 @@ static void showmessage(pdfapp_t *app, int timeout, char *msg)
   }
 }
 
-static int colorasrgb(const char* naem, XColor *color) {
+static int colorasrgb(const char* name, XColor *color) {
   XColor dummy;
   if (XAllocNamedColor(xdpy, DefaultColormap(xdpy, xscr), name, color, &dummy))
     return 1;
@@ -243,7 +243,7 @@ static void winopen(void)
     xshcolor.green = 0x4000;
     xshcolor.blue = 0x4000;
   }
-#if 1
+#if 0
   xbgcolor.red = 0x7000;
   xbgcolor.green = 0x7000;
   xbgcolor.blue = 0x7000;
